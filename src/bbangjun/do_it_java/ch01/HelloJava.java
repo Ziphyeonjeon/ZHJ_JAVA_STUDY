@@ -5,5 +5,6 @@ public class HelloJava {
         System.out.println("Hello, java");
         System.out.println("Hello, bbangjun");
         System.out.println("Hello, abc");
+        System.out.println("Hello, def");
     }
 }
