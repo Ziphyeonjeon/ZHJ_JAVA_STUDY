@@ -1,6 +1,7 @@
 package bbangjun.do_it_java.ch08;
 
 public class P239_CustomerTest1 {
+    private int a=3;
     public static void main(String[] args) {
         P234_Customer customerLee = new P234_Customer();
         customerLee.setCustomerID(10010);
@@ -15,4 +16,5 @@ public class P239_CustomerTest1 {
         System.out.println(customerKim.showCustomerInfo()); // 출력됨
         //customerKim.showCustomerInfo(); // 왜 안될까? c++에서는 가능
     }
+
 }
