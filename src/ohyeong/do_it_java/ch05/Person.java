@@ -6,4 +6,5 @@ public class Person {
     double weight;    //몸무게
     char gender;      //성별
     boolean married;  //결혼 여부
+
 }

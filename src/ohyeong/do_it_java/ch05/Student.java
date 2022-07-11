@@ -25,4 +25,5 @@ public class Student {
         System.out.println(studentAhn.studentName);
         System.out.println(studentAhn.getStudentName());
     }
+
 }
