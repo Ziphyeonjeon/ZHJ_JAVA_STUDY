@@ -11,5 +11,9 @@ public class P317_CalculatorTest {
         System.out.println(calc.times(num1, num2));
         System.out.println(calc.divide(num1, num2));
         calc.showInfo();
+        calc.description(); // 인터페이스의 디폴트 메서드 호출
+
+        int[] arr = {1,2,3,4,5};
+        System.out.println(P314_Calc.total(arr));
     }
 }
