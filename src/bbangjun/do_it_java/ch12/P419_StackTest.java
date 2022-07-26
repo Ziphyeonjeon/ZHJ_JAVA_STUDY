@@ -1,0 +1,33 @@
+package bbangjun.do_it_java.ch12;
+
+import java.util.ArrayList;
+
+class MyStack{
+    private ArrayList<String> arrayStack = new ArrayList<String>();
+
+    public void push(String data){ // 스택의 맨 뒤에 요소를 추가
+        arrayStack.add(data);
+    }
+
+    public String pop(){ // 스택의 맨 뒤에서 요소 꺼냄
+        int len = arrayStack.size(); // ArrayList에 저장된 유효한 자료의 개수
+        if(len==0){
+            System.out.println("스택이 비었습니다");
+            return null;
+        }
+
+        return(arrayStack.remove(len-1)); // 맨 뒤에 있는 자료 반환하고 배열에서 제거
+    }
+}
+public class P419_StackTest {
+    public static void main(String[] args) {
+        MyStack stack = new MyStack();
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+
+        System.out.println(stack.pop()); // C
+        System.out.println(stack.pop()); // B
+        System.out.println(stack.pop()); // A
+    }
+}

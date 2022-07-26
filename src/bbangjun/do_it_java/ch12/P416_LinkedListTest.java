@@ -18,7 +18,7 @@ public class P416_LinkedListTest {
         myList.addFirst("0"); // 연결 리스트의 맨 앞에 0 추가
         System.out.println(myList);
 
-        System.out.println(myList.removeLast()); // 연결 리스트의 맨 뒤 요소 삭제 후 해당 요소를 출력력
+        System.out.println(myList.removeLast()); // 연결 리스트의 맨 뒤 요소 삭제 후 해당 요소를 출력
         System.out.println(myList);
     }
 }
